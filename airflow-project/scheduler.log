@@ -1,0 +1,141 @@
+nohup: ignoring input
+  ____________       _____________
+ ____    |__( )_________  __/__  /________      __
+____  /| |_  /__  ___/_  /_ __  /_  __ \_ | /| / /
+___  ___ |  / _  /   _  __/ _  / / /_/ /_ |/ |/ /
+ _/_/  |_/_/  /_/    /_/    /_/  \____/____/|__/
+[[34m2024-06-05T07:07:21.722+0000[0m] {[34mtask_context_logger.py:[0m63} INFO[0m - Task context logging is enabled[0m
+[[34m2024-06-05T07:07:21.722+0000[0m] {[34mexecutor_loader.py:[0m235} INFO[0m - Loaded executor: SequentialExecutor[0m
+[2024-06-05 07:07:21 +0000] [92627] [INFO] Starting gunicorn 22.0.0
+[2024-06-05 07:07:21 +0000] [92627] [INFO] Listening at: http://[::]:8793 (92627)
+[2024-06-05 07:07:21 +0000] [92627] [INFO] Using worker: sync
+[2024-06-05 07:07:21 +0000] [92628] [INFO] Booting worker with pid: 92628
+[[34m2024-06-05T07:07:21.793+0000[0m] {[34mscheduler_job_runner.py:[0m796} INFO[0m - Starting the scheduler[0m
+[[34m2024-06-05T07:07:21.794+0000[0m] {[34mscheduler_job_runner.py:[0m803} INFO[0m - Processing each file at most -1 times[0m
+[[34m2024-06-05T07:07:21.801+0000[0m] {[34mmanager.py:[0m170} INFO[0m - Launched DagFileProcessorManager with pid: 92632[0m
+[[34m2024-06-05T07:07:21.802+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:07:21.804+0000[0m] {[34msettings.py:[0m60} INFO[0m - Configured default timezone UTC[0m
+[[34m2024-06-05T07:07:21.821+0000[0m] {[34mscheduler_job_runner.py:[0m1618} INFO[0m - Marked 1 SchedulerJob instances as failed[0m
+[2024-06-05 07:07:21 +0000] [92634] [INFO] Booting worker with pid: 92634
+[2024-06-05T07:07:21.831+0000] {manager.py:393} WARNING - Because we cannot use more than 1 thread (parsing_processes = 2) when using sqlite. So we set parallelism to 1.
+[[34m2024-06-05T07:07:30.904+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Host: 127.0.0.1:8793
+Connection: keep-alive
+Sec-Ch-Ua: "Microsoft Edge";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+.[0m
+[[34m2024-06-05T07:07:31.178+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Host: 127.0.0.1:8793
+Connection: keep-alive
+Sec-Ch-Ua: "Microsoft Edge";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+Sec-Ch-Ua-Platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8793/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+.[0m
+[[34m2024-06-05T07:07:33.465+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Host: 127.0.0.1:8793
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Microsoft Edge";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+.[0m
+[[34m2024-06-05T07:07:33.546+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Host: 127.0.0.1:8793
+Connection: keep-alive
+Sec-Ch-Ua: "Microsoft Edge";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+Sec-Ch-Ua-Platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8793/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+.[0m
+[[34m2024-06-05T07:07:34.235+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Host: 127.0.0.1:8793
+Connection: keep-alive
+Cache-Control: max-age=0
+Sec-Ch-Ua: "Microsoft Edge";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+Sec-Ch-Ua-Platform: "Windows"
+Upgrade-Insecure-Requests: 1
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7
+Sec-Fetch-Site: none
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+.[0m
+[[34m2024-06-05T07:07:34.307+0000[0m] {[34mserve_logs.py:[0m85} WARNING[0m - The Authorization header is missing: Host: 127.0.0.1:8793
+Connection: keep-alive
+Sec-Ch-Ua: "Microsoft Edge";v="125", "Chromium";v="125", "Not.A/Brand";v="24"
+Sec-Ch-Ua-Mobile: ?0
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36 Edg/125.0.0.0
+Sec-Ch-Ua-Platform: "Windows"
+Accept: image/avif,image/webp,image/apng,image/svg+xml,image/*,*/*;q=0.8
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: no-cors
+Sec-Fetch-Dest: image
+Referer: http://127.0.0.1:8793/
+Accept-Encoding: gzip, deflate, br, zstd
+Accept-Language: en-US,en;q=0.9
+
+.[0m
+[[34m2024-06-05T07:12:22.136+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:17:22.294+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:22:22.452+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:27:22.614+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:32:22.872+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:37:22.928+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:42:23.086+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:47:23.345+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:52:23.507+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T07:57:23.765+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:02:23.923+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:07:24.073+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:12:24.230+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:17:24.393+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[2024-06-05 08:21:10 +0000] [92627] [INFO] Handling signal: hup
+[2024-06-05 08:21:10 +0000] [92627] [INFO] Hang up: Master
+[2024-06-05 08:21:10 +0000] [92627] [ERROR] Worker (pid:92628) was sent SIGHUP!
+[2024-06-05 08:21:10 +0000] [92627] [ERROR] Worker (pid:92634) was sent SIGHUP!
+[2024-06-05 08:21:10 +0000] [126783] [INFO] Booting worker with pid: 126783
+[2024-06-05 08:21:10 +0000] [126784] [INFO] Booting worker with pid: 126784
+[[34m2024-06-05T08:22:24.650+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:27:24.808+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:32:24.964+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:37:25.122+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:42:25.380+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
+[[34m2024-06-05T08:47:25.456+0000[0m] {[34mscheduler_job_runner.py:[0m1595} INFO[0m - Adopting or resetting orphaned tasks for active dag runs[0m
